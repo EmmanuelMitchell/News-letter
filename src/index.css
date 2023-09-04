@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+p,
+li {
+  @apply text-slate-800;
+}
+
+.btn-sub {
+  @apply w-full bg-slate-950 text-white py-3 px-4 rounded-lg font-bold;
+}
+
+/* .inputNews {
+  @apply w-full focus: border-2 border-slate-950 py-3 px-4  mb-2;
+} */
